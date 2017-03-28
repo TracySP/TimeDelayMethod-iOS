@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6136C01E88E44800006723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6136BF1E88E44800006723 /* main.m */; };
+		3C6136C31E88E44800006723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6136C21E88E44800006723 /* AppDelegate.m */; };
+		3C6136C61E88E44800006723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6136C51E88E44800006723 /* ViewController.m */; };
+		3C6136C91E88E44800006723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6136C71E88E44800006723 /* Main.storyboard */; };
+		3C6136CB1E88E44800006723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6136CA1E88E44800006723 /* Assets.xcassets */; };
+		3C6136CE1E88E44800006723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6136CC1E88E44800006723 /* LaunchScreen.storyboard */; };
+		3C6136D91E88E44800006723 /* ____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6136D81E88E44800006723 /* ____DemoTests.m */; };
+		3C6136E41E88E44800006723 /* ____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6136E31E88E44800006723 /* ____DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C6136D51E88E44800006723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6136B31E88E44800006723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6136BA1E88E44800006723;
+			remoteInfo = "延时方法Demo";
+		};
+		3C6136E01E88E44800006723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6136B31E88E44800006723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6136BA1E88E44800006723;
+			remoteInfo = "延时方法Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C6136BB1E88E44800006723 /* 延时方法Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "延时方法Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6136BF1E88E44800006723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C6136C11E88E44800006723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C6136C21E88E44800006723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C6136C41E88E44800006723 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C6136C51E88E44800006723 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C6136C81E88E44800006723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C6136CA1E88E44800006723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6136CD1E88E44800006723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C6136CF1E88E44800006723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6136D41E88E44800006723 /* 延时方法DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "延时方法DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6136D81E88E44800006723 /* ____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoTests.m"; sourceTree = "<group>"; };
+		3C6136DA1E88E44800006723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6136DF1E88E44800006723 /* 延时方法DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "延时方法DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6136E31E88E44800006723 /* ____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoUITests.m"; sourceTree = "<group>"; };
+		3C6136E51E88E44800006723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C6136B81E88E44800006723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6136D11E88E44800006723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6136DC1E88E44800006723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6136B21E88E44800006723 = {
+			isa = PBXGroup;
+			children = (
+				3C6136BD1E88E44800006723 /* 延时方法Demo */,
+				3C6136D71E88E44800006723 /* 延时方法DemoTests */,
+				3C6136E21E88E44800006723 /* 延时方法DemoUITests */,
+				3C6136BC1E88E44800006723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C6136BC1E88E44800006723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6136BB1E88E44800006723 /* 延时方法Demo.app */,
+				3C6136D41E88E44800006723 /* 延时方法DemoTests.xctest */,
+				3C6136DF1E88E44800006723 /* 延时方法DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6136BD1E88E44800006723 /* 延时方法Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3C6136C11E88E44800006723 /* AppDelegate.h */,
+				3C6136C21E88E44800006723 /* AppDelegate.m */,
+				3C6136C41E88E44800006723 /* ViewController.h */,
+				3C6136C51E88E44800006723 /* ViewController.m */,
+				3C6136C71E88E44800006723 /* Main.storyboard */,
+				3C6136CA1E88E44800006723 /* Assets.xcassets */,
+				3C6136CC1E88E44800006723 /* LaunchScreen.storyboard */,
+				3C6136CF1E88E44800006723 /* Info.plist */,
+				3C6136BE1E88E44800006723 /* Supporting Files */,
+			);
+			path = "延时方法Demo";
+			sourceTree = "<group>";
+		};
+		3C6136BE1E88E44800006723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C6136BF1E88E44800006723 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C6136D71E88E44800006723 /* 延时方法DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6136D81E88E44800006723 /* ____DemoTests.m */,
+				3C6136DA1E88E44800006723 /* Info.plist */,
+			);
+			path = "延时方法DemoTests";
+			sourceTree = "<group>";
+		};
+		3C6136E21E88E44800006723 /* 延时方法DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6136E31E88E44800006723 /* ____DemoUITests.m */,
+				3C6136E51E88E44800006723 /* Info.plist */,
+			);
+			path = "延时方法DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C6136BA1E88E44800006723 /* 延时方法Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6136E81E88E44800006723 /* Build configuration list for PBXNativeTarget "延时方法Demo" */;
+			buildPhases = (
+				3C6136B71E88E44800006723 /* Sources */,
+				3C6136B81E88E44800006723 /* Frameworks */,
+				3C6136B91E88E44800006723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "延时方法Demo";
+			productName = "延时方法Demo";
+			productReference = 3C6136BB1E88E44800006723 /* 延时方法Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C6136D31E88E44800006723 /* 延时方法DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6136EB1E88E44800006723 /* Build configuration list for PBXNativeTarget "延时方法DemoTests" */;
+			buildPhases = (
+				3C6136D01E88E44800006723 /* Sources */,
+				3C6136D11E88E44800006723 /* Frameworks */,
+				3C6136D21E88E44800006723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6136D61E88E44800006723 /* PBXTargetDependency */,
+			);
+			name = "延时方法DemoTests";
+			productName = "延时方法DemoTests";
+			productReference = 3C6136D41E88E44800006723 /* 延时方法DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C6136DE1E88E44800006723 /* 延时方法DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6136EE1E88E44800006723 /* Build configuration list for PBXNativeTarget "延时方法DemoUITests" */;
+			buildPhases = (
+				3C6136DB1E88E44800006723 /* Sources */,
+				3C6136DC1E88E44800006723 /* Frameworks */,
+				3C6136DD1E88E44800006723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6136E11E88E44800006723 /* PBXTargetDependency */,
+			);
+			name = "延时方法DemoUITests";
+			productName = "延时方法DemoUITests";
+			productReference = 3C6136DF1E88E44800006723 /* 延时方法DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6136B31E88E44800006723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TracyMcSong;
+				TargetAttributes = {
+					3C6136BA1E88E44800006723 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3WP5CLA48;
+					};
+					3C6136D31E88E44800006723 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3WP5CLA48;
+						TestTargetID = 3C6136BA1E88E44800006723;
+					};
+					3C6136DE1E88E44800006723 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3WP5CLA48;
+						TestTargetID = 3C6136BA1E88E44800006723;
+					};
+				};
+			};
+			buildConfigurationList = 3C6136B61E88E44800006723 /* Build configuration list for PBXProject "延时方法Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6136B21E88E44800006723;
+			productRefGroup = 3C6136BC1E88E44800006723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C6136BA1E88E44800006723 /* 延时方法Demo */,
+				3C6136D31E88E44800006723 /* 延时方法DemoTests */,
+				3C6136DE1E88E44800006723 /* 延时方法DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C6136B91E88E44800006723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6136CE1E88E44800006723 /* LaunchScreen.storyboard in Resources */,
+				3C6136CB1E88E44800006723 /* Assets.xcassets in Resources */,
+				3C6136C91E88E44800006723 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6136D21E88E44800006723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6136DD1E88E44800006723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6136B71E88E44800006723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6136C61E88E44800006723 /* ViewController.m in Sources */,
+				3C6136C31E88E44800006723 /* AppDelegate.m in Sources */,
+				3C6136C01E88E44800006723 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6136D01E88E44800006723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6136D91E88E44800006723 /* ____DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6136DB1E88E44800006723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6136E41E88E44800006723 /* ____DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C6136D61E88E44800006723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6136BA1E88E44800006723 /* 延时方法Demo */;
+			targetProxy = 3C6136D51E88E44800006723 /* PBXContainerItemProxy */;
+		};
+		3C6136E11E88E44800006723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6136BA1E88E44800006723 /* 延时方法Demo */;
+			targetProxy = 3C6136E01E88E44800006723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C6136C71E88E44800006723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6136C81E88E44800006723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C6136CC1E88E44800006723 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6136CD1E88E44800006723 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C6136E61E88E44800006723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C6136E71E88E44800006723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C6136E91E88E44800006723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "延时方法Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C6136EA1E88E44800006723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "延时方法Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C6136EC1E88E44800006723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "延时方法DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/延时方法Demo.app/延时方法Demo";
+			};
+			name = Debug;
+		};
+		3C6136ED1E88E44800006723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "延时方法DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/延时方法Demo.app/延时方法Demo";
+			};
+			name = Release;
+		};
+		3C6136EF1E88E44800006723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "延时方法DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "延时方法Demo";
+			};
+			name = Debug;
+		};
+		3C6136F01E88E44800006723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "延时方法DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "延时方法Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6136B61E88E44800006723 /* Build configuration list for PBXProject "延时方法Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6136E61E88E44800006723 /* Debug */,
+				3C6136E71E88E44800006723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6136E81E88E44800006723 /* Build configuration list for PBXNativeTarget "延时方法Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6136E91E88E44800006723 /* Debug */,
+				3C6136EA1E88E44800006723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C6136EB1E88E44800006723 /* Build configuration list for PBXNativeTarget "延时方法DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6136EC1E88E44800006723 /* Debug */,
+				3C6136ED1E88E44800006723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C6136EE1E88E44800006723 /* Build configuration list for PBXNativeTarget "延时方法DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6136EF1E88E44800006723 /* Debug */,
+				3C6136F01E88E44800006723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6136B31E88E44800006723 /* Project object */;
+}
