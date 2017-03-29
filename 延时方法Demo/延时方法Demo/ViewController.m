@@ -83,7 +83,7 @@
     [self.myTimer invalidate];
 }
 
-/// NSThread方法 阻塞主线程 主、子线程均可
+/// NSThread方法 阻塞主线程 主、子线程均可ddd
 - (void)NSThreadMethod
 {
     [NSThread sleepForTimeInterval:kDelay];
