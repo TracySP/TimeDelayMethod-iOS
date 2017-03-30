@@ -13,7 +13,7 @@
 
 @property (nonatomic,strong) NSTimer *myTimer;
 
-@property (nonatomic,strong) NSThread *newThread;
+@property (nonatomic,strong) NSThread *threadNew;
 
 @property (nonatomic) BOOL isContinue;
 
@@ -65,9 +65,9 @@
 - (void)NSTimerChildThread
 {
     // 创建一个子线程
-    self.newThread = [[NSThread alloc] initWithTarget:self selector:@selector(newThreadRun) object:nil];
+    self.threadNew = [[NSThread alloc] initWithTarget:self selector:@selector(newThreadRun) object:nil];
     
-    [self.newThread start];
+    [self.threadNew start];
 }
 
 - (void)newThreadRun
